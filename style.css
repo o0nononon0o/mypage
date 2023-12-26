@@ -88,11 +88,12 @@ li a{
   position: absolute;
   top: 0;
   left: 0;
-  width: 64px;
+  width: 48px;
   height: 480px;
   background: inherit;
   color: white;
   font-size: 48px;
+  display: inline-block;
   text-align: center;
   border: none;
   cursor: pointer;
@@ -102,11 +103,12 @@ li a{
   position: absolute;
   top: 0;
   right: 0;
-  width: 64px;
+  width: 48px;
   height: 480px;
   background: inherit;
   color: white;
   font-size: 48px;
+  display: inline-block;
   text-align: center;
   border: none;
   cursor: pointer;

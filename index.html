@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Page</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="container" id="top">
+    <h1>My Page</h1>
+    <ul class="nav">
+      <li><a href="#news">News</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#address">Address</a></li>
+    </ul>
+  </header>
+  <div class="slider">
+    <img class="pic pic1 fadein" src="pic1.jpg">
+    <img class="pic pic2" src="pic2.jpg">
+    <img class="pic pic3" src="pic3.jpg">
+    <button class="btn-1">≪</button>
+    <button class="btn-2">≫</button>
+  </div>
+  <div class="counterbox">
+    <p id="comment">Click me, please!</p>
+    <div class="counter">
+      <button id="logo">
+        <img src="logo.png" width="48">
+      </button>
+      <p id="counter">0</p>
+    </div>
+  </div>
+  <main class="container">
+    <div id="news" class="show">
+      <h2>News</h2>
+      <article>
+        <time datetime="2020-01-07">2020.01.07</time><span>New</span>
+        <h3>タイトルタイトルタイトル</h3>
+      </article>
+      <article>
+        <time datetime="2020-01-07">2020.01.07</time>
+        <h3>タイトルタイトルタイトル</h3>
+      </article>
+      <article>
+        <time datetime="2020-01-07">2020.01.07</time>
+        <h3>タイトルタイトルタイトル</h3>
+      </article>
+    </div>
+    <section id="about" class="show">
+      <div class="wrapper-1">
+        <img src="pic4.jpg" width="400" height="400">
+      </div>
+      <div class="wrapper-2">
+        <h2>About</h2>
+        <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+      </div>
+    </section>
+    <section id="blog" class="show">
+      <div class="wrapper-1">
+        <img src="pic5.jpg" width="400" height="400">
+      </div>
+      <div class="wrapper-2">
+        <h2>Blog</h2>
+        <p>ああああああああああああああああああああああああああああああああああああああああああああああああああああああああ</p>
+      </div>
+    </section>
+    <section id="address" class="show">
+      <div class="wrapper-1">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7477988419732!2d139.74285797625072!3d35.658584831216906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bbd9009ec09%3A0x481a93f0d2a409dd!2z5p2x5Lqs44K_44Ov44O8!5e0!3m2!1sja!2sjp!4v1703492969553!5m2!1sja!2sjp" width="360" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="wrapper-2">
+        <h2>Address</h2>
+        <p>〒 XXX - XXXX<br>東京都港区○○○X - Y - Z<br>Tel: XXX - XXXX -XXXX</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <a href="#top" class="btn-top">▲Top</a>
+    <small>(c) ~~~.com</small>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
